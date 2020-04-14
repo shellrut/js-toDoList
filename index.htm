@@ -8,7 +8,7 @@
       final-project-team-4
       
       Authors: 
-      Travis Strawn
+      Strawn,Travis
       Cottrell,Ryan B
       Rutland,Shelby
 
@@ -30,21 +30,29 @@
         </div>
       </div>
     </div>
+    
+    <img src="notebook.png"> </img>
 
     <div class="row">
       <div class="helpText col-12">
-        <p id="first">Enter text into the input field to add items to your list.</p>
-        <p id="second">Click the item to mark it as complete.</p>
-        <p id="third">Click the "X" to remove the item from your list.</p>
+        <p id="first"><i>Enter text into the input field to add items to your list.</i></p>
+        <p id="second"><i>Click the item to mark it as complete.</i></p>
+        <p id="third"><i>Click the "X" to remove the item from your list.</i></p>
       </div>
     </div>
 
     <div class="row">
       <div class="col-12">
         <input id="userInput" type="text" placeholder="New item..." maxlength="27">
-        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+        <button onclick="alertBox()" id="enter"><i class="fas fa-pencil-alt"></i>+</button>
       </div>
     </div>
+    
+    <script>
+        function alertBox() {
+            alert("A new task has been added to your list!");
+        }
+    </script>
 
     <!-- Empty List -->
     <div class="row">
@@ -55,6 +63,6 @@
     </div>
 
   </div>
-  <script type="text/javascript" src="script_method3.js"></script>
+  <script type="text/javascript" src="toDoList.js"></script>
 </body>
 </html>
