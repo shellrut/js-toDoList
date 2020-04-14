@@ -4,7 +4,7 @@
       final-project-team-4
       
       Authors: 
-      Travis Strawn
+      Strawn,Travis
       Cottrell,Ryan B
       Rutland,Shelby
 
@@ -45,7 +45,7 @@ function createListElement() {
 
   // START ADD DELETE BUTTON
   var dBtn = document.createElement("button");
-  dBtn.appendChild(document.createTextNode("X"));
+  dBtn.appendChild(document.createTextNode("-"));
   li.appendChild(dBtn);
   dBtn.addEventListener("click", deleteListItem);
   // END ADD DELETE BUTTON
